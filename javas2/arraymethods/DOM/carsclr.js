@@ -9,11 +9,9 @@ let cars = [{ model: "XUV500", Brand: "Mahindra", price: 1500000, color: "White"
 { model: "Scorpio N", Brand: "Mahindra", price: 2500000, color: "White" },
 { model: "X1", Brand: "BMW", price: 3500000, color: "Black" },
 { model: "Nexon", Brand: "Tata", price: 1500000, color: "White" }]
-let new_Cars = []
+let Cars = []
 
-for (car of cars) {
-    if (car.color === "Red") {
-        new_Cars.push(car)
-    }
-}
+let new_Cars = cars.filter((car) => {
+    return car.color == "Rose"
+})
 console.log(new_Cars)
