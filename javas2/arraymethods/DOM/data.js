@@ -110,6 +110,5 @@ function suman() {
                         <td>${employee.gender}</td>
                         </tr>`
     })
-    //document.getElementById('tbody_Data').innerHTML = "GM"
     document.getElementById('suman').innerHTML = rows
 }
