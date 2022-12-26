@@ -1,0 +1,1 @@
+const ename=require('./one')
