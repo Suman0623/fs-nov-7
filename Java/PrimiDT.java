@@ -1,6 +1,6 @@
 class Test{
     public static void main(String[] args){
-    byte a= 125; 
+    byte a= -125; 
     short b=156;
     int c=256;
     long d=12434;
